@@ -5,17 +5,16 @@ export default function TextComponent(){
   const [wordCount, setWordCount] = React.useState(0);
 
   const handleTextChange = (event) => {
-    const res= event.target.value.split(' ');
-    setWordCount(res.length);
+    const res = event.target.value.split(' ');
+    setWordCount(res.filter((str) => str !== '').length);
   }
   return (
     <div>
       <TextField
         id="outlined-multiline-static"
-        label=""
+        label="Your text"
         multiline
         rows={4}
-        defaultValue="Type your text here..."
         variant="outlined"
         onChange={handleTextChange}
       />
