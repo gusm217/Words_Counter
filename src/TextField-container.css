@@ -1,0 +1,13 @@
+.TextField-container {
+  text-align: center;
+  margin: 100px;
+}
+
+.TextField-input {
+  width: 500px;
+  margin-bottom: 100px;
+}
+
+.text-counter {
+  margin-top: 100px !important;
+}
