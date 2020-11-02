@@ -1,5 +1,6 @@
 import { TextField, Typography } from "@material-ui/core";
 import React from "react";
+import './TextField-container.css';
 
 export default function TextComponent(){
   const [wordCount, setWordCount] = React.useState(0);
@@ -9,16 +10,16 @@ export default function TextComponent(){
     setWordCount(res.filter((str) => str !== '').length);
   }
   return (
-    <div>
-      <TextField
+    <div className="TextField-container">
+      <TextField className='TextField-input'
         id="outlined-multiline-static"
         label="Your text"
         multiline
-        rows={4}
+        rows={8}
         variant="outlined"
         onChange={handleTextChange}
       />
-      <Typography variant="h3">Your counted words are: {wordCount}</Typography>
+      <Typography variant="h3" style={{ marginTop: '100px'}}>Your counted words are: {wordCount}</Typography>
     </div>
   );
 }
