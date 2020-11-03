@@ -1,0 +1,68 @@
+[33mcommit 929211ef8e620158d425e41d4d1767bd19f989d6[m[33m ([m[1;36mHEAD -> [m[1;32mfeat/add-styles[m[33m, [m[1;31morigin/feat/add-styles[m[33m)[m
+Author: Gustavo Mendes <gusm217@gmail.com>
+Date:   Mon Nov 2 17:03:12 2020 -0300
+
+    Remove CSS Typograph class as it get styled on the line
+
+[33mcommit 65d0533448037bbbb589183aff844d12a828b004[m
+Author: Gustavo Mendes <gusm217@gmail.com>
+Date:   Sat Oct 31 20:33:57 2020 -0300
+
+    add styles to texts
+
+[33mcommit b7f88820f2ada4c90fb71ebfc77222c7a627535d[m[33m ([m[1;32mmain[m[33m)[m
+Merge: aa597cf 957759d
+Author: Gustavo Mendes <45135641+gusm217@users.noreply.github.com>
+Date:   Sat Oct 31 16:35:28 2020 -0300
+
+    Merge pull request #3 from gusm217/bugfix/avoid-count-empty-string
+    
+    bugfix: do not count empty strings as words
+
+[33mcommit 957759d2c1a56d72ae1b3249c16b464b723e1878[m[33m ([m[1;31morigin/bugfix/avoid-count-empty-string[m[33m)[m
+Author: Mateus Mendonca <mateus.mendonca@softruck.com>
+Date:   Sat Oct 31 13:23:31 2020 -0300
+
+    bugfix: do not count empty strings as words
+
+[33mcommit aa597cfc740053c683e878464aae0e9ded625673[m
+Merge: c4ea48f 614e8d7
+Author: Mateus Resende <mateus.rsnd@gmail.com>
+Date:   Sat Oct 31 13:15:52 2020 -0300
+
+    Merge pull request #2 from gusm217/feat/count-words
+    
+    add working counting words
+
+[33mcommit 614e8d796fef43e9967ad9619d0be3db10bd4bcd[m[33m ([m[1;31morigin/feat/count-words[m[33m, [m[1;32mfeat/count-words[m[33m)[m
+Author: Gustavo Mendes <gusm217@gmail.com>
+Date:   Sat Oct 31 13:13:30 2020 -0300
+
+    add working counting words
+
+[33mcommit c4ea48f84b5523e4402d728dcfaa7f4d62a29adc[m
+Merge: 8fec645 3387c87
+Author: Gustavo Mendes <45135641+gusm217@users.noreply.github.com>
+Date:   Sat Oct 31 12:22:29 2020 -0300
+
+    Merge pull request #1 from gusm217/chore/add-material-ui
+    
+    chore: Add title with material ui
+
+[33mcommit 3387c87663bbc7381bce215a49d446f76a50fb5c[m
+Author: Mateus Mendonca <mateus.mendonca@softruck.com>
+Date:   Sat Oct 31 12:17:46 2020 -0300
+
+    chore: Add title with material ui
+
+[33mcommit 8fec6457403da91c601724325dc5185f56372e86[m
+Author: Gustavo Mendes <gusm217@gmail.com>
+Date:   Sat Oct 31 12:00:32 2020 -0300
+
+    create react app
+
+[33mcommit ed6c5e78c9f2960e2631bdc30b200572cd1324fc[m
+Author: Gustavo Mendes <gusm217@gmail.com>
+Date:   Sat Oct 31 11:30:45 2020 -0300
+
+    Initial repo setup
