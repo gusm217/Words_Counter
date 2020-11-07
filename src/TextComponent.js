@@ -6,9 +6,12 @@ export default function TextComponent(){
   const [wordCount, setWordCount] = React.useState(0);
 
   const handleTextChange = (event) => {
-    const res = event.target.value.split(' ');
-    setWordCount(res.filter((str) => str !== '').length);
+    const res = event.target.value
+    setWordCount (res.split(/[^a-z]/).filter((str) => str !== '').length);    
   }
+  
+  
+
   return (
     <div className="TextField-container">
       <TextField className='TextField-input'
